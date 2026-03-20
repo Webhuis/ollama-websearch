@@ -239,7 +239,7 @@ SearXNG approach gives full control. OpenClaw is a UI tool, not a programmable A
 ## The Full Code
 
 All examples — Python, Node.js, and shell/curl — are on GitHub:
-**[github.com/Webhuis/ollama-websearch](#)**
+**[github.com/Webhuis/ollama-websearch](https://github.com/Webhuis/ollama-websearch)**
 
 Includes:
 - SearXNG setup with Docker
