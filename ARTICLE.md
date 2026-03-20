@@ -261,3 +261,28 @@ Includes:
 
 *Tested on a real Debian 13 server. No VMs, no Docker-in-Docker, no assumptions.*
 *If something doesn't work, open an issue.*
+
+---
+
+## Update: Ollama's Native Web Search API
+
+Since this guide was written, Ollama has added a **native web search API**
+available via their cloud service:
+```python
+from ollama import Ollama
+client = Ollama()
+results = client.webSearch("what is ollama?")
+```
+
+**Key differences from our SearXNG approach:**
+
+| | Ollama Cloud Search | Our SearXNG Approach |
+|---|---|---|
+| API Key | ✅ Required | ❌ Not needed |
+| Privacy | ❌ Cloud | ✅ Fully local |
+| Cost | Paid tier | Free |
+| Control | ❌ Black box | ✅ Full control |
+| Works offline | ❌ No | ✅ Yes |
+
+For privacy-first, offline, or production deployments — **SearXNG remains
+the better choice.**
