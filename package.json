@@ -1,0 +1,15 @@
+{
+  "name": "ollama-websearch",
+  "version": "1.0.0",
+  "description": "Ollama web search examples - SearXNG, Google, Bing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "searxng": "node websearch_searxng.js",
+    "google": "node websearch_google_bing.js",
+    "duckduckgo": "node websearch_duckduckgo.js"
+  },
+  "keywords": ["ollama", "websearch", "searxng", "llm"],
+  "author": "Martin Simons",
+  "license": "MIT"
+}

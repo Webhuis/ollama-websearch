@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / secrets
+.env
+*.env
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
