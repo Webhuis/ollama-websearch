@@ -1,6 +1,6 @@
 ---
 title: The Only Honest Guide to Web Search in Ollama
-tags: ollama, llm, web-search, self-hosted, python
+tags: ollama, llm, webSearch, python
 canonical_url: https://github.com/Webhuis/ollama-websearch
 cover_image: 
 description: Every tutorial about Ollama web search gets it wrong. DuckDuckGo's free API returns empty results. Here's what actually works — tested on a real Debian 13 server.
